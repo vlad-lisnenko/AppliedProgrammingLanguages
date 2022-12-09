@@ -88,7 +88,7 @@ end
 
 def main
   grid = Array.new(9) {Array.new(9)}
-  sudoku_sources_file = "sudoku_sources.txt"
+  sudoku_sources_file = "data/sudoku_sources.txt"
 
   if File.file?(sudoku_sources_file)
     read_from_file(grid, sudoku_sources_file)
